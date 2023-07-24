@@ -30,13 +30,13 @@ func main(){
 		Name:[]string{"Alice","Bob","Cathy"},
 	}
 
-	// // Unary call
-	// callSayHello(client)
-	// // Server Stream call
-	// callSayHelloServerStream(client,names)
-	// //Client Stream call
-	// callSayHelloClientStream(client,names)
-	
+	// Unary call
+	callSayHello(client)
+	// Server Stream call
+	callSayHelloServerStream(client,names)
+	// Client Stream call
+	callSayHelloClientStream(client,names)
+	// Bi-directional Stream call
 	callSayHelloBidirectionalStream(client, names)
 
 
